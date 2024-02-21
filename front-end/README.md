@@ -1,3 +1,4 @@
+# Deprecated 
 # Vue 3 + Vite
 
 Frontend built with vuejs

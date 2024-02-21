@@ -23,10 +23,9 @@ php artisan serve
 
 ===========
 
-# Front-end 
 # Vue 3 + Vite
 
-Frontend built with vuejs
+Frontent code has been shift here & built with vuejs
 
 ## How to run it
 ```
@@ -38,12 +37,19 @@ cp .env .env.example
 # install dependencies
 npm install
 
+# install tailwind:
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# install toast notification
+npm i vue-toastification@next
+
 # install some extra packages 
 npm install quill quill-mention
 npm install quill-syntax
 npm install highlight.js
 
-# serve project
+# serve project to run the vite local server
 npm run serve
 ```
 
